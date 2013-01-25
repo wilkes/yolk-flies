@@ -25,6 +25,6 @@
 
 (defn ^:export main []
   (let [$content ($ "body")
-        text "BACON FLIES LIKE A YOLK"]
+        text "YOLK FLIES LIKE BACON"]
     (doseq [i (range 0 (count text))]
       (bind-letter $content (get text i) i))))
